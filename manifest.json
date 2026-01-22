@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Strata | Content Provenance",
+  "version": "1.0",
+  "description": "Biometric verification layer for academic and editorial integrity.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_title": "Open Strata Environment"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon.png", 
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
